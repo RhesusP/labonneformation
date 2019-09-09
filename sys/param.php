@@ -74,13 +74,9 @@
 
 	define('PARAM_DEFRETOURALEMPLOI',"mesure la part des stagiaires inscrits à Pôle emploi qui, dans les 6 mois suivant la fin de chaque formation, ont retrouvé un emploi salarié de 1 mois et plus (hors particuliers employeurs, employeurs publics, employeurs à l’étranger et missions d’intérim à durée non renseignée), ou ont bénéficié d’un contrat aidé ou ont créé leur entreprise (Source : données Pôle emploi).");
 
-	$this->store('users_api',
-		array(
-			'USER_API'=>'',
-		));
+	global $users_api;
+	$users_api=array('USER'=>'pass');
 
-	$this->store('users_apifinancement',
-		array(
-			'USER_API'=>'',
-		));
+	global $users_apifinancement;
+	$users_apifinancement=array('USER'=>'pass');
 ?>

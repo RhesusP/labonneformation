@@ -304,7 +304,7 @@
 					<div class="block-actions anomalie">
 							<div class="col-md-12 text-center">
 								<h5>Signaler une anomalie<br/>sur votre simulation</h5>
-								<a href="mailto:<?php _M(EMAIl_CONTACT,array('subject'=>'Anomalie financement','body'=>"Explication de l'anomalie sur les dispositifs de financement :\n\n\n\nURL de la page concernée : ".URL_BASE.$this->rewrite('/simulatorresult.php',array('cmd'=>'engage')+$this->get())));?>" class="btn"><span class="fa fa-exclamation-triangle fa-picto"></span></a>
+								<a href="mailto:<?php _M(EMAIL_CONTACT,array('subject'=>'Anomalie financement','body'=>"Explication de l'anomalie sur les dispositifs de financement :\n\n\n\nURL de la page concernée : ".URL_BASE.$this->rewrite('/simulatorresult.php',array('cmd'=>'engage')+$this->get())));?>" class="btn"><span class="fa fa-exclamation-triangle fa-picto"></span></a>
 							</div>
 					</div>
 				<?php else: ?>

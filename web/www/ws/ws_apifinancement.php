@@ -1,6 +1,9 @@
 <?php
 	$user=$this->get('user');
-	$user=$this->getStore('users_apifinancement',array());
+
+	global $users_apifinancement;
+	
+	$user=$users_apifinancement;
 
 	$t=microtime(true);
 	/* Test d'intégrité de l'url + controle du User + Signature */

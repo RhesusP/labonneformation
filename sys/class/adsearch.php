@@ -1,6 +1,4 @@
 <?php
-	//Classe type API.
-
 	class AdSearch
 	{
 		protected $codesFinanceurs=array(

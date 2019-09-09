@@ -12,7 +12,7 @@
 				<ul>
 					<li><a href="<?php $this->rw('/faq.php');?>" target="_blank">FAQ</a></li>
 					<!--<li><button data-toggle="modal" data-target="#contactModal" onclick="javascript:afficherFormulaireMail('',<?php //_JS(EMAIL_FROM,'SIMPLE_QUOTE') ?>,'Je souhaite vous contacter','','','home','lbf');">Contactez notre équipe</button></li>-->
-					<li><a href="mailto:<?php _M(EMAIl_CONTACT,array('subject'=>'Je souhaite vous contacter', 'body'=>"\nCe message sera transmis sur la boîte de La Bonne Formation, vous pouvez rédiger votre question ou nous signaler une anomalie.\n\nEnvoyé depuis la page ".$this->getUrl()));?>" target="_blank">Contactez notre équipe</a></li>
+					<li><a href="mailto:<?php _M(EMAIL_CONTACT,array('subject'=>'Je souhaite vous contacter', 'body'=>"\nCe message sera transmis sur la boîte de La Bonne Formation, vous pouvez rédiger votre question ou nous signaler une anomalie.\n\nEnvoyé depuis la page ".$this->getUrl()));?>" target="_blank">Contactez notre équipe</a></li>
 					<li><a href="<?php $this->rw('/orga.php');?>">Annuaire des organismes</a></li>
 				</ul>
 			</div>

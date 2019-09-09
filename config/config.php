@@ -20,7 +20,7 @@
 	if(!defined('URL_TREFLE')) define('URL_TREFLE','http://trefle.pole-emploi.fr');
 	if(!defined('TREFLE_API_VERSION')) define('TREFLE_API_VERSION','0.7');
 	if(!defined('URL_API_TREFLE')) define('URL_API_TREFLE',URL_TREFLE.(TREFLE_API_VERSION?"/".TREFLE_API_VERSION:""));
-	if(!defined('CRYPT_PASS')) define('CRYPT_PASS',''));
+	if(!defined('CRYPT_PASS')) define('CRYPT_PASS','');
 	if(!defined('KEY_STATS')) define('KEY_STATS','');
 	if(!defined('EMAIL_MODALCONTACT')) define('EMAIL_MODALCONTACT','');
 	if(!defined('EMAIL_CONTACT')) define('EMAIL_CONTACT','');

@@ -1,7 +1,8 @@
 <?php
 	ini_set('memory_limit','256M');
 
-	$users=$this->getStore('users_api');
+	global $users_api;
+	$users=$users_api;
 	$db=$this->getStore('read');
 
 	$doc=$this->get('doc',false);
