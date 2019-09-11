@@ -9,7 +9,7 @@
 
 <?php _BEGINBLOCK('script'); ?>
 	<?php $asset->add('js',array('/js/detail.js')); ?>
-	<script type="text/javascript" src="https://anotea.beta.pole-emploi.fr/static/js/widget/anotea-widget-loader.min.js"></script>
+	<script src="https://anotea.beta.pole-emploi.fr/static/js/widget/anotea-widget-loader.min.js"></script>
 	<script>
 		$(document).ready(function() {
 			initDetail({

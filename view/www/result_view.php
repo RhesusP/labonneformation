@@ -575,9 +575,7 @@
 													<?php if($duration): ?>
 														<h4>Durée</h4>
 														<span class="info">
-															<div>
-																<?php _H($duration);?> heure<?php _T($duration>1?'s':''); ?>
-															</div>
+															<?php _H($duration);?> heure<?php _T($duration>1?'s':''); ?>
 														</span>
 													<?php endif ?>
 												</div>

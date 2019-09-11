@@ -18,14 +18,13 @@
 			</div>
 			<div class="col-md-3">
 				<ul>
-					<li><a id="apis_esd" data-toggle="collapse" data-target="#apis-target"><span id="label_apis_esd">Retrouvez nos API</span><span id="indent_apis_esd">&nbsp;&nbsp;</span><span class="fa fa-chevron-down"></span></a>
-						<div id="apis-target" class="collapse" style="indent:1">
-							<ul>
-								<li class="liens_apis_esd"><a href="https://www.emploi-store-dev.fr/portail-developpeur/detailapicatalogue/58ed0272243a5f0262fb0ed6" target="_blank">Taux de retour à l'emploi</a></li>
-								<li class="liens_apis_esd"><a href="https://www.emploi-store-dev.fr/portail-developpeur/detailapicatalogue/anotea-notes-et-avis-sur-les-formations-v1?id=5b61aa65f085a9d152a0ca2e" target="_blank">Anotea</a></li>
-								<li class="liens_apis_esd"><a href="https://www.emploi-store-dev.fr/portail-developpeur/detailapicatalogue/simulateur-de-financement-v1?id=5ca702c8243a5f418929f589" target="_blank">Simulateur de financement</a></li>
-							</ul>
-						</div>	
+					<li>
+						<a id="apis_esd" data-toggle="collapse" data-target="#apis-target"><span id="label_apis_esd">Retrouvez nos API</span><span id="indent_apis_esd">&nbsp;&nbsp;</span><span class="fa fa-chevron-down"></span></a>
+						<ul id="apis-target" class="collapse">
+							<li class="liens_apis_esd"><a href="https://www.emploi-store-dev.fr/portail-developpeur/detailapicatalogue/58ed0272243a5f0262fb0ed6" target="_blank">Taux de retour à l'emploi</a></li>
+							<li class="liens_apis_esd"><a href="https://www.emploi-store-dev.fr/portail-developpeur/detailapicatalogue/anotea-notes-et-avis-sur-les-formations-v1?id=5b61aa65f085a9d152a0ca2e" target="_blank">Anotea</a></li>
+							<li class="liens_apis_esd"><a href="https://www.emploi-store-dev.fr/portail-developpeur/detailapicatalogue/simulateur-de-financement-v1?id=5ca702c8243a5f418929f589" target="_blank">Simulateur de financement</a></li>
+						</ul>
 					</li>
 				</ul>
 			</div>

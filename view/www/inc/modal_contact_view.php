@@ -44,7 +44,7 @@
 	</script>
 <?php _ENDBLOCK('script'); ?>
 
-<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-hidden="true">
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header nobr" id="contactmodalhead">
@@ -52,25 +52,25 @@
 				<button type="button" data-dismiss="modal" class="close" aria-label="Close">
 					<img src="/img/pictos/picto-croix.png" alt="fermer"/>
 				</button><br>
-				<!-------------------------->
+
 				<div id="formulaireheadorga" hidden>
 					<h2 class="modal-title">Contacter l'organisme de formation</h2>
 				</div>
 				<div id="formulaireheadlbf" hidden>
 					<h2 class="modal-title">Contacter La Bonne Formation</h2>
 				</div>
-				<!-------------------------->
+
 				<div id="confirmationhead" hidden>
 					<h2 class="modal-title">Confirmation de l'envoi de mail</h2>
 				</div>
-				<!-------------------------->
+
 				<div id="envoiok" hidden>
 					<h2 class="modal-title">
 						<span class="fa fa-check"></span>
 						&nbsp;Envoi effectué
 					</h2>
 				</div>
-				<!-------------------------->
+
 				<div id="envoiko" hidden>
 					<h2 class="modal-title">
 						<span class="fa fa-exclamation-triangle"></span>
@@ -79,32 +79,32 @@
 				</div> 
 			</div>
 			<div class="modal-body form-group" id="contactmodalbody">
-				<!-------------------------->
+
 				<div id="formulairebody" hidden>
-						<div class=" mail">
-							<label for="contact-orga-adresse-exp-form"><strong>Votre email</strong></label><br>
-							<input type="email" required class="form-control input" id="contact-orga-adresse-exp-form" name="contact-orga-adresse-exp-form" value=""/>
-							<span id="alerteadresse" class="errormessage">Veuillez rentrer une adresse email valide.</span>
-						</div>
-						<div class="objet">
-							<label for="contact-orga-objet"><strong>Objet</strong></label><br>
-							<input id="contact-orga-objet-form" class="form-control input" name="contact-orga-objet" value=""/>
-							<span id="alerteobjet" class="errormessage"  hidden>L'objet de votre email ne peut pas être vide</span>
-						</div>
-						<div class="message">
-							<label for="contact-orga-message"><strong>Message au centre de formation</strong></label><br>
-							<textarea id="contact-orga-message-form" class="form-control input" name="contact-orga-message" rows="10"></textarea>
-							<span id="alertemessage" class="errormessage" hidden>Le message de votre email ne peut pas être vide.</span>
-						</div>
-						<div class="copie">
-							<input type="checkbox" id="contact-orga-copie-form" name="contact-orga-copie-form" value="Oui" class="sr-only"/>
-							<label for="contact-orga-copie-form" id="label-copie"><strong>Je souhaite recevoir une copie de cet email sur ma boîte email</strong></label>
-						</div>
-						<div class="modal-footer">
-							<button id="boutonconfirmer" type="submit" class="btnoblig btn center-block">J'envoie</button>
-						</div>
+					<div class=" mail">
+						<label for="contact-orga-adresse-exp-form"><strong>Votre email</strong></label><br>
+						<input type="email" required class="form-control input" id="contact-orga-adresse-exp-form" name="contact-orga-adresse-exp-form" value=""/>
+						<span id="alerteadresse" class="errormessage">Veuillez rentrer une adresse email valide.</span>
+					</div>
+					<div class="objet">
+						<label for="contact-orga-objet-form"><strong>Objet</strong></label><br>
+						<input id="contact-orga-objet-form" class="form-control input" name="contact-orga-objet" value=""/>
+						<span id="alerteobjet" class="errormessage"  hidden>L'objet de votre email ne peut pas être vide</span>
+					</div>
+					<div class="message">
+						<label for="contact-orga-message-form"><strong>Message au centre de formation</strong></label><br>
+						<textarea id="contact-orga-message-form" class="form-control input" name="contact-orga-message" rows="10"></textarea>
+						<span id="alertemessage" class="errormessage" hidden>Le message de votre email ne peut pas être vide.</span>
+					</div>
+					<div class="copie">
+						<input type="checkbox" id="contact-orga-copie-form" name="contact-orga-copie-form" value="Oui" class="sr-only"/>
+						<label for="contact-orga-copie-form" id="label-copie"><strong>Je souhaite recevoir une copie de cet email sur ma boîte email</strong></label>
+					</div>
+					<div class="modal-footer">
+						<button id="boutonconfirmer" type="submit" class="btnoblig btn center-block">J'envoie</button>
+					</div>
 				</div>
-				<!-------------------------->
+
 				<div id="confirmationbody" hidden>
 					<p>
 						<span>À : </span><?php _H($email) ?><span id="contact-orga-adresse-confirm"></span>
@@ -132,7 +132,7 @@
 						</div>
 					</div>
 				</div>
-				<!-------------------------->
+
 				<div id="envoibody" hidden>
 
 				</div>

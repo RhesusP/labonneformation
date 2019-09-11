@@ -115,8 +115,8 @@
 		<div class="col-md-12">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center">
-					<h1 class="immersion-title text-center">L'immersion professionnelle</h1>
-					<h2 class="immersion-subtitle titre-page">Pour tester un métier avant<br/>de vous former</h1>
+					<h2 class="immersion-title text-center">L'immersion professionnelle</h2>
+					<h3 class="immersion-subtitle titre-page">Pour tester un métier avant<br/>de vous former</h3>
 					<p class="immersion-description">Avant de vous lancer dans une formation, profitez d'une immersion en entreprise pour tester un métier quelques jours. Vérifiez que le métier vous convient et faites évaluer vos compétences par un professionnel.</p>
 				</div>
 			</div>
@@ -170,7 +170,7 @@
 
 			<div class="row" id="immersion-bouton-tester">
 				<div class="col-md-12 text-center">
-					<a href="/stage" type="submit" class="btn" onclick="track('IMMERSION HOME CTA');">Tester un métier</a>
+					<a href="/stage" class="btn" onclick="track('IMMERSION HOME CTA');">Tester un métier</a>
 				</div>
 			</div>
 		</div>
