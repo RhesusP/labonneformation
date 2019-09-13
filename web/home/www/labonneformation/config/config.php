@@ -36,6 +36,6 @@
 	if(!defined('TAG_CRISP_RECETTE')) define('TAG_CRISP_RECETTE','');
 
 	if(!isset($databaseRead)) $databaseRead=array('host'=>'','user'=>'','password'=>'','db'=>'');
-	if(!isset($databaseWrite)) $databaseWrite=array('host'=>'','user'=>'','password'=>''),'db'=>'');
+	if(!isset($databaseWrite)) $databaseWrite=array('host'=>'','user'=>'','password'=>'','db'=>'');
 	if(!isset($database)) $database=$databaseWrite;
 ?>
