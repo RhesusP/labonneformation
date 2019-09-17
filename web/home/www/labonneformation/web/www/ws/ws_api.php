@@ -3,6 +3,7 @@
 
 	global $users_api;
 	$users=$users_api;
+
 	$db=$this->getStore('read');
 
 	$doc=$this->get('doc',false);

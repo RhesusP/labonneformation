@@ -1,0 +1,23 @@
+version: "3"
+
+services:
+  web:
+    hostname: web
+    restart: always
+    build:
+      context: .
+      dockerfile: dockerfile_web
+    ports:
+    - "8080:80"
+
+  database:
+    hostname: database
+    restart: always
+    build:
+      context: .
+      dockerfile: dockerfile_database
+    volumes:
+    - "labonneformation:/var/lib/database"
+
+volumes:
+  labonneformation:

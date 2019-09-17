@@ -9,6 +9,27 @@
 	define('ESDLBB_CLIENTSECRET','');
 	define('ESD_CLIENTSECRET','');
 
+	define('TOKEN_LBB','');
+	define('LBB_HMACKEY','');
+
+	define('URL_IMPORTANOTEA','');
+	define('URL_WSINTERCARIF','');
+	define('URL_TREFLE','http://trefle.pole-emploi.fr');
+	define('TREFLE_API_VERSION','0.7');
+	define('URL_API_TREFLE',URL_TREFLE.(TREFLE_API_VERSION?"/".TREFLE_API_VERSION:""));
+	define('CRYPT_PASS','');
+
+	define('TAG_SEO_PROD','');
+	define('TAG_SEO_RECETTE','');
+	define('TAG_ANALYTICS_PROD','');
+	define('TAG_ANALYTICS_RECETTE','');
+	define('TAG_OPTIMIZE_PROD','');
+	define('TAG_OPTIMIZE_RECETTE','');
+	define('TAG_HOTJAR_PROD','');
+	define('TAG_HOTJAR_RECETTE','');
+	define('TAG_CRISP_PROD','');
+	define('TAG_CRISP_RECETTE','');
+
 	define('LOCATION_TYPE',6);
 	/* Constantes locationpath regions */
 	define('LOCATIONPATH_GRANDEST','/1/1/2/');

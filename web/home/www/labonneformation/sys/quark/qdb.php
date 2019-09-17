@@ -78,7 +78,6 @@
 				case 'sqlserver': require_once(QUARK_PATH.'/db/sqlserver.php'); $this->db=new SqlServer($options); return;
 				case 'oracle': require_once(QUARK_PATH.'/db/oracle.php'); $this->db=new Oracle($options); return;
 				case 'postgresql': require_once(QUARK_PATH.'/db/postgresql.php'); $this->db=new PostgreSql($options); return;
-				case 'sqlite': require_once(QUARK_PATH.'/db/sqlite.php'); $this->db=new SQLite($options); return;
 			}
 			require_once(QUARK_PATH.'/db/mysqli.php');
 			if(array_key_exists('logslowqueries',$options)) $this->logSlowQueries=$options['logslowqueries'];
@@ -88,7 +87,7 @@
 		{
 			$this->close();
 		}
-		public function open($ip='',$login='',$pass='',$db=null)
+		public function open($ip,$login='',$pass='',$db=null)
 		{
 			$this->op=$this->db->open($ip,$login,$pass,$db);
 			return $this->op;

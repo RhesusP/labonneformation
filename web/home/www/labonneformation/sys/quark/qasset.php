@@ -194,7 +194,7 @@
 				//Tout ce qui n'est pas "data:" est forcément url
 				if(strtolower(substr($m[1],0,5))!='data:')
 				{
-					$path=$this->realUrl($basePath,$m[1]);
+					$path=$this->realUrl($quark,$basePath,$m[1]);
 					return sprintf(
 						'url(data:image/%s;base64,%s)',
 						preg_replace('#^.*\.(.*?)(\?.*|)$#','$1',$path),
@@ -223,12 +223,12 @@
 		}
 
 		/* Réduit les ../ d'une url. Normalement la fonction devrait itérer jusqu'à optimisation totale. A terminer */
-		private function realUrl($base,$rel)
+		private function realUrl($quark,$base,$rel)
 		{
+
 			if($base=='')
 			{
 				//Lien interne
-				global $quark;
 				$rel=sprintf('%s%s',$quark->controllerRoot,preg_replace('#^(.*?)[?].*$#','$1',$rel));
 				return preg_replace("#[^/]+/\.\./#","",$rel);
 			}
