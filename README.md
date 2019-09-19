@@ -6,7 +6,7 @@
 
 > Une fois votre choix réalisé, un questionnaire vous permettra de découvrir les financements dont vous pouvez bénéficier : apprentissage, chômage, insertion, compte personnel formation, dispositif spécifique de la région…
 
-## Dépendences
+## Dépendances
 
 L'application est codée avec le language PHP7 et utilise le framework Quarky et stocke ses données dans une base [Mariadb](https://mariadb.com/fr/). Le serveur [Sphinx](http://sphinxsearch.com) est utilisé comme moteur de recherche.
 
