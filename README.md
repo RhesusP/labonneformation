@@ -16,7 +16,7 @@ Elle utilise [wkhtmltopdf](http://www.sourceforge.net/projects/tcpdf) et [Fpdi](
 
 Il est possible d'installer directement les dépendances sur sa machine, mais il est préconisé d'utiliser [Docker](https://www.docker.com/) et [Docker Compose](https://docs.docker.com/compose/) pour une installation accélérée. En effet, l'ensemble des dépendances sont installées grâce aux dockerfiles.
 
-###Installation de Docker sur Debian/Ubuntu
+### Installation de Docker sur Debian/Ubuntu
 
 ```
 sudo apt-get -y install  apt-transport-https ca-certificates curl  software-properties-common
@@ -26,14 +26,14 @@ sudo apt-get install -y docker-ce
 sudo usermod -aG docker $USER
 ```
 
-###Installation de docker-compose
+### Installation de docker-compose
 
 ```
 sudo curl -L https://github.com/docker/compose/releases/download/1.18.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 ```
 
-###Execution du docker labonneformation
+### Execution du docker labonneformation
 ```
 docker-compose up --build -d
 ```
