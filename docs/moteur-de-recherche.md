@@ -5,15 +5,15 @@ Moteur de recherche du site labonne formation
 
 1. Autocomplétion du champs "Je chercher une formation de"
 
-Les mots clés proposés à l'autocomplention sont issus de la liste de codes ROME. Nous avons une table de correspondances ROME => FORMACODE. Lorsque l'internaute va choisir un mot clé d'un métier ROME de la liste suggérée nous allons en déduire les codes FORMACAODE associés qui vont nous permettre de recherche les formations concernées.
+Les mots clés proposés à l'autocomplention sont issus de la liste de codes ROME. Nous avons une table de correspondances ROME => FORMACODE. Lorsque l'internaute va choisir un mot clé d'un métier ROME de la liste suggérée nous allons en déduire les codes FORMACODE associés qui vont nous permettre de rechercher les formations concernées.
 
 Il est possible également de saisir un mot clé qui n'est pas présent dans la liste d'autocomplétion.
 
 2. Autocomplétions du champs "Où"
 
-Il existe quelques règles simple pour prendre en compte les diffirentes appélation d'un lieu. Comme les déclinaisons de "Saint", "Sainte", "Saintes", etc.. Mais aussi des alias tel que "paca" qui sera reconnu et porposera la région "Provence Alpe Côte d'Azur".
+Il existe quelques règles simple pour prendre en compte les diffirentes appélations d'un lieu. Comme les déclinaisons de "Saint", "Sainte", "Saintes", etc.. Mais aussi des alias tel que "paca" qui sera reconnu et porposera la région "Provence Alpe Côte d'Azur".
 
-La recherche se fait sur des termes normalisés, sans accents et en minuscule.
+Pour un lieu choisi, c'est ensuite le code insee correspondant qui sera fourni au motur de recherche.
 
 ## Règle de gestion
 
@@ -51,6 +51,6 @@ Si le lieu n'est pas fourni:
 
 Toutes formations dont le lieux de formations se trouvent à 30km au plus du lieux de recherche est éligible à figurer dans la liste de résultats.
 
-Autrement dit selon les règles du tris de résultats pour un lieu donnée, un formation dont lieux serait à 20km du lieu recherché mais qui commencera avant une formation à moins de 5 km de lieu recherché sera présenté en premier devant la formaition plus proche du lieu recherché.
+Autrement dit selon les règles du tri des résultats pour un lieu donnée, un formation dont lieux serait à 20km du lieu recherché mais qui commencerais avant une formation à moins de 5 km de lieu recherché sera présenté en premier devant la formaition plus proche du lieu recherché.
 
 
