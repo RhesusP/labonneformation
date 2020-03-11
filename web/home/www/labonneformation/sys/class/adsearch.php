@@ -70,7 +70,8 @@
 					s.locationpath AS session_locationpath,
 					o.id AS orgaid,o.content AS orgacontent,o.name AS organame,
 					sa.distance AS dist,
-					(6371*ACOS(COS(sa.lat)*COS(RADIANS(s.lat))*COS(RADIANS(s.lng)-sa.lng)+SIN(sa.lat)*SIN(RADIANS(s.lat)))) AS distance,
+					/*(6371*ACOS(COS(sa.lat)*COS(RADIANS(s.lat))*COS(RADIANS(s.lng)-sa.lng)+SIN(sa.lat)*SIN(RADIANS(s.lat)))) AS distance,*/
+					(6371*ACOS(COS(sa.lat)*COS(RADIANS(FUNC_EXTRADATA('lt',r1.extradata,'')))*COS(RADIANS(FUNC_EXTRADATA('lg',r1.extradata,''))-sa.lng)+SIN(sa.lat)*SIN(RADIANS(FUNC_EXTRADATA('lt',r1.extradata,''))))) AS distance,
 					FLOOR(IF(arb.bassinrate IS NULL,IF(arb.departementrate IS NULL,IF(arb.regionalrate IS NULL,arb.nationalrate,arb.regionalrate),arb.departementrate),arb.bassinrate)*5) AS tx
 					FROM
 					(
