@@ -467,7 +467,8 @@
 					       s.content AS sessioncontent,
 					       DATE_FORMAT(s.beganat,'%%Y-%%m-%%d') AS datedebut,
 					       DATE_FORMAT(s.endedat,'%%Y-%%m-%%d') AS datefin,
-					       s.lat AS session_lat,s.lng AS session_lng,
+					       FUNC_EXTRADATA('lt',r1.extradata,'') AS session_lat,
+					       FUNC_EXTRADATA('lg',r1.extradata,'') AS session_lng,
 					       o.id AS orga_id,o.content AS orgacontent,o.name AS organame,
 					       (
 					           SELECT r.extradata
