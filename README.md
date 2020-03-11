@@ -2,11 +2,11 @@
 
 [La Bonne Formation](https://labonneformation.pole-emploi.fr) (LBF) est un projet Open Source des Startups d'Etat Pôle emploi.
 
-> La Bonne Dormation est un moteur de recherche complet des formations en France. Pour vous permettre de faire le meilleur choix, les formations sont triées par Taux de Retour à l’Emploi dans les 12 mois : grâce aux données internes de Pôle emploi nous savons vous dire quelle formation est la plus susceptible d’accélérer votre retour à l’emploi.
+> La Bonne Formation est un moteur de recherche complet des formations en France. Pour vous permettre de faire le meilleur choix, les formations sont triées par Taux de Retour à l’Emploi dans les 12 mois : grâce aux données internes de Pôle emploi nous savons vous dire quelle formation est la plus susceptible d’accélérer votre retour à l’emploi.
 
 > Une fois votre choix réalisé, un questionnaire vous permettra de découvrir les financements dont vous pouvez bénéficier : apprentissage, chômage, insertion, compte personnel formation, dispositif spécifique de la région…
 
-## Dépendences
+## Dépendances
 
 L'application est codée avec le language PHP7 et utilise le framework Quarky et stocke ses données dans une base [Mariadb](https://mariadb.com/fr/). Le serveur [Sphinx](http://sphinxsearch.com) est utilisé comme moteur de recherche.
 
