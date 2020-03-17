@@ -54,6 +54,6 @@ Dans les autres cas, la recherche se fait sur l'appartenance du lieu au départe
 
 Toutes formations dont le lieux de formations se trouvent à 30km au plus du lieux de recherche est éligible à figurer dans la liste de résultats.
 
-Autrement dit selon les règles du tri des résultats pour un lieu donnée, un formation dont lieux serait à 20km du lieu recherché mais qui commencerait avant une formation à moins de 5 km de lieu recherché sera présenté en premier devant la formaition plus proche du lieu recherché.
+Autrement dit selon les règles du tri des résultats pour un lieu donnée, une formation dont lieux serait à 20km du lieu recherché mais qui commencerait avant une formation à moins de 5 km de lieu recherché sera présenté en premier devant la formation plus proche du lieu recherché.
 
 
