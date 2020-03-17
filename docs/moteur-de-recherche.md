@@ -1,7 +1,7 @@
 Moteur de recherche du site la bonne formation
 =============================================
 
-## Autcomplétion
+## Autocomplétion
 
 1. Autocomplétion du champs "Je chercher une formation de"
 
@@ -9,7 +9,7 @@ Les libellés proposés à l'autocompletion sont issus de la liste des appellati
 
 Il est possible également de saisir un mot clé qui n'est pas présent dans la liste d'autocomplétion. (Cf. règles de gestion)
 
-2. Autocomplétions du champs "Où"
+2. Autocomplétion du champs "Où"
 
 Il existe quelques règles simples pour prendre en compte les différentes appellations d'un lieu. Comme les déclinaisons de "Saint => St", "Sainte => Ste", "Saintes => ...", etc.. Mais aussi des alias tels que "paca" qui sera reconnu et proposera la région "Provence Alpe Côte d'Azur".
 
