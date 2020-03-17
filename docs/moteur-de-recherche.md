@@ -1,4 +1,4 @@
-Moteur de recherche du site labonne formation
+Moteur de recherche du site la bonne formation
 =============================================
 
 ## Autcomplétion
