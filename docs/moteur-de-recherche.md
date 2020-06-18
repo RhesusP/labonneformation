@@ -25,12 +25,13 @@ Pour un lieu choisi, c'est ensuite le code insee correspondant qui sera fourni a
 * Lieu (via code insee donné par l'autocomplétion)
 * Niveau de sortie
 * Formation certifiante
-* Financée pour le DE
-* Financée pour un salarié
+* [Financée pour le DE](filtre-de-recherche.md)
+* [Financée pour un salarié](filtre-de-recherche.md)
 * Financement PIC
 * Contrat d'apprentissage
 * Contrat de professionalisation
 * Modalité : à distance, en organisme
+
 
 ### Tri des résultats ###
 
