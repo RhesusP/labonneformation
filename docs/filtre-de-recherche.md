@@ -26,4 +26,4 @@ Ci après les régles de fonctionement pour les filtres "salariés" et "Financé
 	- CODEFINANCEUR_COLLECTIVITE_TERRITORIALE_AUTRE,
 	- CODEFINANCEUR_OPCA
 
-Les autres filtres n'ont pas d'algorithme spécifique, chaquun étant associé à une caractéristique de la formation envoyée par l'intercarif.
+Les autres filtres n'ont pas d'algorithme spécifique, chacun étant associé à une caractéristique de la formation envoyée par l'intercarif.
